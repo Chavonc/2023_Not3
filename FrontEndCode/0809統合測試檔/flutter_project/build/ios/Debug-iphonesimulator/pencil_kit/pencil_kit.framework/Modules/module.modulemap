@@ -1,0 +1,11 @@
+framework module pencil_kit {
+  umbrella header "pencil_kit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module pencil_kit.Swift {
+  header "pencil_kit-Swift.h"
+  requires objc
+}
