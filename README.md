@@ -1,5 +1,5 @@
 # 2023 Not3 Project 多人即時手寫筆記軟體
-放ProjectCode的地方
+本人主要response on Front-End & API串接，放ProjectCode的地方
 
 ## 開發情況及資料夾說明
 <p>FrontEndCode在不同版本的flutter_project中</p>
