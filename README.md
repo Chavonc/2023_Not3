@@ -1,4 +1,4 @@
-# 資料夾說明
+# 開發情況及資料夾說明
 <p>FrontEndCode在不同版本的flutter_project中</p>
 <p>日期寫月日+(不同版本或備份)</p>
 <p>使用iOS系統(能最新版本供iPad、iPhone、Mac Simulator使用，沒有上架)，Flutter的Dart語言開發運行</p>
