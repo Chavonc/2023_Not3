@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <input id="message" type="text">
+    <button id="send">Send</button>
+    <hr>
+    <div id="timeline"></div>
+
+    <script>
+        console.log('test');
+        // 设定URL建立WebSocket连接
+        var conn = new WebSocket("ws://" + location.host + ":8080/")
+        // var conn = new WebSocket('ws://localhost:8888');
+        // 成功建立连接
+        conn.onopen = function (e) {
+            console.log('successful');
+            conn.send('Hello!');
+        };
+        // 收到消息
+        conn.onmessage = function (e) {
+            document.getElementById('timeline').innerText += e.data;
+            document.getElementById('timeline').innerHTML += '<br>';
+        };
+        // 连接出错
+        conn.onerror = function (e) {
+            alert('WebSocket connection error.');
+        }
+        // 断开连接
+        conn.onclose = function (e) {
+            console.log('Connection closed:', e);
+            alert('WebSocket connection closed.');
+        }
+        // 发送消息
+        document.getElementById('send').onclick = function () {
+            if (!document.getElementById('message').value) return;
+            conn.send(document.getElementById('message').value);
+            document.getElementById('message').value = '';
+        }
+    </script>
+</body>
+</html>
