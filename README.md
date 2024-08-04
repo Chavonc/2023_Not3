@@ -1,10 +1,6 @@
 # 2023 Not3 Project 多人即時手寫筆記軟體
 放ProjectCode的地方
 
-## Branch差異
-<p>main:說明</p>
-<p>master: FrontEnd及BackEnd的Code、Database</p>
-
 ## 開發情況及資料夾說明
 <p>FrontEndCode在不同版本的flutter_project中</p>
 <p>日期寫月日+(不同版本或備份)</p>
