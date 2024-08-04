@@ -1,0 +1,6 @@
+framework module zego_express_engine {
+  umbrella header "zego_express_engine-umbrella.h"
+
+  export *
+  module * { export * }
+}
