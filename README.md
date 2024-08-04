@@ -1,10 +1,8 @@
 # 資料夾說明
 <p>FrontEndCode在不同版本的flutter_project中</p>
-<p>日期寫月日+(不同版本或備份)，如下: </p>
-<p>0726Project_Agora_TreeTest</p>
-<p>0726目前結合登入註冊bloc_虛擬機完整版</p>
-<p>0802登入登出Bloc_CreateFreeLeaf</p>
-<p>0809統合測試檔</p>
-<p>0814Link新增版本</p>
-<p>0816加上葉子內成員版本</p>
-<p>0821開始結合之最終版本</p>
+<p>日期寫月日+(不同版本或備份)</p>
+<p>使用iOS系統(能最新版本供iPad、iPhone、Mac Simulator使用，沒有上架)，Flutter的Dart語言開發運行</p>
+<br></br>
+<p>BackEndCode是指用Yii架構的RESTFUL API</p>
+<p>使用php語言及Postman開發運行</p>
+<p>日期寫月日+(不同版本或備份)</p>
