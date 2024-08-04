@@ -14,7 +14,7 @@
 https://www.youtube.com/watch?v=qTHvsBUKePM
 
 ## 實機運行影片(配有簡單說明)
-<p>因使用老舊服務器(免費)，所有一開始的API請求略慢，請擔待，可自身購買使用服務器運行</p>
+<p>因使用老舊服務器(免費)，所以一開始的API請求略慢，請擔待，可自身購買使用服務器運行</p>
 https://drive.google.com/file/d/1uz3uGql4WAE_KbGZu96vp4muBFkRX3f5/view?usp=drive_link
 
 ## Notion 個人開發過程紀錄
