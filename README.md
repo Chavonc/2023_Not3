@@ -1,5 +1,6 @@
 # 2023 Not3 Project 多人即時手寫筆記軟體
 本人主要response on Front-End & API串接
+<br></br>
 <img width="433" alt="image" src="https://github.com/user-attachments/assets/a6639827-d031-439e-9a96-ccaca4ad485a">
 
 ## 開發情況及資料夾說明
